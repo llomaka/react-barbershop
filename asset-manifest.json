@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-barbershop/static/css/main.e01fb902.css",
+    "main.js": "/react-barbershop/static/js/main.f03c480d.js",
+    "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.8343acbd31192da3d8ddc1c81af1df6f.svg",
+    "index.html": "/react-barbershop/index.html",
+    "main.e01fb902.css.map": "/react-barbershop/static/css/main.e01fb902.css.map",
+    "main.f03c480d.js.map": "/react-barbershop/static/js/main.f03c480d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e01fb902.css",
+    "static/js/main.f03c480d.js"
+  ]
+}
