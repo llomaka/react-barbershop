@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/react-barbershop/static/css/main.e01fb902.css",
-    "main.js": "/react-barbershop/static/js/main.f03c480d.js",
-    "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.8343acbd31192da3d8ddc1c81af1df6f.svg",
+    "main.css": "/react-barbershop/static/css/main.5df69c98.css",
+    "main.js": "/react-barbershop/static/js/main.b9256fdd.js",
+    "static/media/slider3-1073.webp": "/react-barbershop/static/media/slider3-1073.4518cea49568d21b5461.webp",
+    "static/media/slider1-1073.webp": "/react-barbershop/static/media/slider1-1073.dd4fb551ca4a54cf6336.webp",
+    "static/media/slider2-1073.webp": "/react-barbershop/static/media/slider2-1073.589cd367de99c34c79a6.webp",
+    "static/media/slider1-577.webp": "/react-barbershop/static/media/slider1-577.79ce256c42d9882ae1dc.webp",
+    "static/media/slider3-577.webp": "/react-barbershop/static/media/slider3-577.a8facbb40dd4c90a4b6e.webp",
+    "static/media/slider2-577.webp": "/react-barbershop/static/media/slider2-577.93875fb66834161aa19d.webp",
+    "static/media/slider1-480.webp": "/react-barbershop/static/media/slider1-480.e531e8c4d31b27014194.webp",
+    "static/media/slider3-480.webp": "/react-barbershop/static/media/slider3-480.2ffdfb61cbcbad10dc8d.webp",
+    "static/media/slider2-480.webp": "/react-barbershop/static/media/slider2-480.ee04032dd04ef59a59fa.webp",
+    "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.52d04435a1cf05881c097e310d14586e.svg",
     "index.html": "/react-barbershop/index.html",
-    "main.e01fb902.css.map": "/react-barbershop/static/css/main.e01fb902.css.map",
-    "main.f03c480d.js.map": "/react-barbershop/static/js/main.f03c480d.js.map"
+    "main.5df69c98.css.map": "/react-barbershop/static/css/main.5df69c98.css.map",
+    "main.b9256fdd.js.map": "/react-barbershop/static/js/main.b9256fdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01fb902.css",
-    "static/js/main.f03c480d.js"
+    "static/css/main.5df69c98.css",
+    "static/js/main.b9256fdd.js"
   ]
 }
