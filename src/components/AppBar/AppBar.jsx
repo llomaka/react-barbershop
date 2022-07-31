@@ -83,7 +83,7 @@ export default function AppBar() {
               </MenuItem>
               <MenuItem key='appointment' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center' textTransform='uppercase'>
-                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Online Appointment</NavLink>
+                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Appointment</NavLink>
                 </Typography>
               </MenuItem>
             </Menu>
@@ -120,7 +120,7 @@ export default function AppBar() {
               </MenuItem>
               <MenuItem key='appointment'>
                 <Typography textAlign='center' textTransform='uppercase' sx={{ marginLeft: 'auto' }}>
-                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Online Appointment</NavLink>
+                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Appointment</NavLink>
                 </Typography>
               </MenuItem>
             </MenuList>

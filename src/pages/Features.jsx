@@ -1,3 +1,9 @@
+import FeaturesList from '../components/FeaturesList';
+
 export default function Features() {
-  return (<p>Features</p>);
+  return (
+    <>
+      <FeaturesList />
+    </>
+  );
 }

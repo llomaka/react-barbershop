@@ -1,3 +1,9 @@
+import Portfolio from '../components/Portfolio';
+
 export default function Gallery() {
-  return (<p>Gallery</p>);
+  return (
+    <>
+      <Portfolio />
+    </>
+  );
 }

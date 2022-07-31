@@ -1,3 +1,9 @@
+import MastersList from '../components/MastersList';
+
 export default function Masters() {
-  return (<p>Masters</p>);
+  return (
+    <>
+      <MastersList />
+    </>
+  );
 }

@@ -1,18 +1,19 @@
-import { useMemo } from 'react';
+import { useMemo, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Box, CssBaseline, useMediaQuery } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import SharedLayout from './SharedLayout';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Features from '../pages/Features';
-import Prices from '../pages/Prices';
-import Gallery from '../pages/Gallery';
-import Masters from '../pages/Masters';
-import Contacts from '../pages/Contacts';
-import Appointment from '../pages/Appointment';
 
 // mock URL: https://1b8325ca-1174-4df8-a9e2-2e1c7b6ed606.mock.pstmn.io
+
+const HomePage = lazy(() => import('../pages/Home'));
+const AboutPage = lazy(() => import('../pages/About'));
+const PricesPage = lazy(() => import('../pages/Prices'));
+const MastersPage = lazy(() => import('../pages/Masters'));
+const ContactsPage = lazy(() => import('../pages/Contacts'));
+const AppointmentPage = lazy(() => import('../pages/Appointment'));
+const FeaturesPage = lazy(() => import('../pages/Features'));
+const GalleryPage = lazy(() => import('../pages/Gallery'));
 
 export default function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -30,15 +31,16 @@ export default function App() {
         <CssBaseline />
         <Routes>
           <Route path='/*' element={<SharedLayout />}>
-            <Route path='home' element={<Home /> } />
-            <Route path='about' element={<About /> } />
-            <Route path='prices' element={<Prices /> } />
-            <Route path='features' element={<Features /> } />
-            <Route path='masters' element={<Masters /> } />
-            <Route path='gallery' element={<Gallery /> } />
-            <Route path='appointment' element={<Appointment /> } />
-            <Route path='contacts' element={<Contacts /> } />
-            <Route path='*' element={<Home /> } />
+            <Route path='home' element={<HomePage /> } />
+            <Route path='about' element={<AboutPage />} >
+              <Route path='features' element={<FeaturesPage /> } />
+              <Route path='gallery' element={<GalleryPage /> } />
+            </Route>
+            <Route path='prices' element={<PricesPage /> } />
+            <Route path='masters' element={<MastersPage /> } />
+            <Route path='appointment' element={<AppointmentPage /> } />
+            <Route path='contacts' element={<ContactsPage /> } />
+            <Route path='*' element={<HomePage /> } />
           </Route>
         </Routes>
       </ThemeProvider>
