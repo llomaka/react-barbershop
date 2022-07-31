@@ -45,7 +45,7 @@ export default function MastersList() {
   const mastersDesktopArray = mastersMobArray.map((master, index) => ({ ...master, image: picturesArray[index+3] }));
 
   return (
-    <Box>
+    <Box sx={{backgroundColor: '#F7F7F7', padding: '20px'}}>
         <Typography sx={{
           color: '#303030',
           textTransform: 'uppercase',

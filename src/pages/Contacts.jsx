@@ -1,3 +1,9 @@
+import ContactsList from '../components/ContactsList';
+
 export default function Contacts() {
-  return (<p>Contacts</p>);
+  return (
+    <>
+      <ContactsList />
+    </>
+  );
 }

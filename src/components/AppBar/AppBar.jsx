@@ -7,7 +7,6 @@ import styles from './AppBar.module.css';
 
 export default function AppBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  // const classes = ({ isActive }) => isActive ? [styles.accent, styles.link].join(' ') : [styles.main, styles.link].join(' ');
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -24,7 +23,7 @@ export default function AppBar() {
 
   return (
     <>
-      <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { xs: 'space-between', md: 'initial' }, gap: { md: '30px', lg: '70px' }, py: { xs: '40px', md: '32px' } }}>
+      <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { xs: 'space-between', md: 'initial' }, gap: { md: '30px', lg: '70px' }, py: { xs: '40px', md: '20px' } }}>
         <NavLink to='/'>
           <Logo width='67' height='56' className={styles.logo} />
         </NavLink>
