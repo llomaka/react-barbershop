@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/910.2129a42e.chunk.js","mappings":"mLAAe,SAASA,IACtB,OAAQ,mCACT,C","sources":["pages/Contacts.jsx"],"sourcesContent":["export default function Contacts() {\n  return (<p>Contacts</p>);\n}\n"],"names":["Contacts"],"sourceRoot":""}
