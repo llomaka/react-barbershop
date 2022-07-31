@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 export default function SharedLayout() {
   return (
     <>
-      <header style={{backgroundColor: '#303030', color: '#FFF'}}>
+      <header>
         <Container maxWidth='lg'>
           <AppBar />
         </Container>

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Toolbar, Typography, Menu, MenuItem, IconButton, MenuList, Box, Link } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import styles from './AppBar.module.css';
 
 export default function AppBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -16,11 +17,16 @@ export default function AppBar() {
     setAnchorElNav(null);
   };
 
+  const activeStyle = {
+    color: '#FF6C00',
+    textDecoration: 'underline'
+  };
+
   return (
     <>
-      <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { xs: 'space-between', md: 'initial' }, gap: { md: '30px', lg: '70px' }, paddingTop: { xs: '40px', md: '32px' }, paddingBottom: { xs: '40px', md: '32px' } }}>
-        <NavLink to='/' >
-          <Logo width='67' height='56' />
+      <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { xs: 'space-between', md: 'initial' }, gap: { md: '30px', lg: '70px' }, py: { xs: '40px', md: '32px' } }}>
+        <NavLink to='/'>
+          <Logo width='67' height='56' className={styles.logo} />
         </NavLink>
         <nav>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -52,22 +58,22 @@ export default function AppBar() {
               }}>
               <MenuItem key='about' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center'>
-                  <NavLink to='/about'>About us</NavLink>
+                  <NavLink to='/about' style={({ isActive }) => isActive ? activeStyle : undefined }>About us</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='prices' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center'>
-                  <NavLink to='/prices'>Services and prices</NavLink>
+                  <NavLink to='/prices' style={({ isActive }) => isActive ? activeStyle : undefined }>Services and prices</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='masters' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center'>
-                  <NavLink to='/masters'>Masters</NavLink>
+                  <NavLink to='/masters' style={({ isActive }) => isActive ? activeStyle : undefined }>Masters</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='contacts' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center'>
-                  <NavLink to='/contacts'>Contacts</NavLink>
+                  <NavLink to='/contacts' style={({ isActive }) => isActive ? activeStyle : undefined }>Contacts</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='phone' onClick={handleCloseNavMenu}>
@@ -77,32 +83,32 @@ export default function AppBar() {
               </MenuItem>
               <MenuItem key='appointment' onClick={handleCloseNavMenu}>
                 <Typography textAlign='center' textTransform='uppercase'>
-                  <NavLink to='/appointment'>Online Appointment</NavLink>
+                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Online Appointment</NavLink>
                 </Typography>
               </MenuItem>
             </Menu>
           </Box>
 
-          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: {lg: '150px'} }}>
+          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: { lg: '150px' } }}>
             <MenuList sx={{ display: 'flex', alignItems: 'center', gap: { lg: '8px' } }}>
               <MenuItem key='about'>
                 <Typography textAlign='center'>
-                  <NavLink to='/about'>About us</NavLink>
+                  <NavLink to='/about' style={({ isActive }) => isActive ? activeStyle : undefined }>About us</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='prices'>
                 <Typography textAlign='center'>
-                  <NavLink to='/prices'>Services and prices</NavLink>
+                  <NavLink to='/prices' style={({ isActive }) => isActive ? activeStyle : undefined }>Services and prices</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='masters'>
                 <Typography textAlign='center'>
-                  <NavLink to='/masters'>Masters</NavLink>
+                  <NavLink to='/masters' style={({ isActive }) => isActive ? activeStyle : undefined }>Masters</NavLink>
                 </Typography>
               </MenuItem>
               <MenuItem key='contacts'>
                 <Typography textAlign='center'>
-                  <NavLink to='/contacts'>Contacts</NavLink>
+                  <NavLink to='/contacts' style={({ isActive }) => isActive ? activeStyle : undefined }>Contacts</NavLink>
                 </Typography>
               </MenuItem>
             </MenuList>
@@ -114,7 +120,7 @@ export default function AppBar() {
               </MenuItem>
               <MenuItem key='appointment'>
                 <Typography textAlign='center' textTransform='uppercase' sx={{ marginLeft: 'auto' }}>
-                  <NavLink to='/appointment'>Online Appointment</NavLink>
+                  <NavLink to='/appointment' style={({ isActive }) => isActive ? activeStyle : undefined }>Online Appointment</NavLink>
                 </Typography>
               </MenuItem>
             </MenuList>
