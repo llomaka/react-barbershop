@@ -1,3 +1,9 @@
+import AppointmentForm from '../components/AppointmentForm';
+
 export default function Appointment() {
-  return (<p>Appointment</p>);
+  return (
+    <>
+      <AppointmentForm />
+    </>
+  );
 }

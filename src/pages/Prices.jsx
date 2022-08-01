@@ -1,3 +1,9 @@
+import PriceList from '../components/PriceList';
+
 export default function Prices() {
-  return (<p>Prices</p>);
+  return (
+    <>
+      <PriceList />
+    </>
+  );
 }
