@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/react-barbershop/static/css/main.5df69c98.css",
-    "main.js": "/react-barbershop/static/js/main.081cd5e8.js",
+    "main.js": "/react-barbershop/static/js/main.61e068b8.js",
     "static/js/142.3a37dad1.chunk.js": "/react-barbershop/static/js/142.3a37dad1.chunk.js",
     "static/js/768.d3315007.chunk.js": "/react-barbershop/static/js/768.d3315007.chunk.js",
-    "static/js/481.1facae1e.chunk.js": "/react-barbershop/static/js/481.1facae1e.chunk.js",
+    "static/js/946.4df2b12c.chunk.js": "/react-barbershop/static/js/946.4df2b12c.chunk.js",
     "static/js/628.64908735.chunk.js": "/react-barbershop/static/js/628.64908735.chunk.js",
-    "static/js/124.d5755966.chunk.js": "/react-barbershop/static/js/124.d5755966.chunk.js",
-    "static/js/849.d5b5430e.chunk.js": "/react-barbershop/static/js/849.d5b5430e.chunk.js",
+    "static/js/336.d4f20daf.chunk.js": "/react-barbershop/static/js/336.d4f20daf.chunk.js",
+    "static/js/904.ca94bb87.chunk.js": "/react-barbershop/static/js/904.ca94bb87.chunk.js",
     "static/js/561.0af5a7ce.chunk.js": "/react-barbershop/static/js/561.0af5a7ce.chunk.js",
     "static/js/830.4cd0ef79.chunk.js": "/react-barbershop/static/js/830.4cd0ef79.chunk.js",
     "static/js/411.e721921c.chunk.js": "/react-barbershop/static/js/411.e721921c.chunk.js",
-    "static/js/968.37d80517.chunk.js": "/react-barbershop/static/js/968.37d80517.chunk.js",
+    "static/js/380.2b2a61c6.chunk.js": "/react-barbershop/static/js/380.2b2a61c6.chunk.js",
+    "static/js/968.17370a21.chunk.js": "/react-barbershop/static/js/968.17370a21.chunk.js",
+    "static/js/661.93609e37.chunk.js": "/react-barbershop/static/js/661.93609e37.chunk.js",
+    "static/media/contacts1280.webp": "/react-barbershop/static/media/contacts1280.7652826a5da002941ffd.webp",
+    "static/media/contacts768.webp": "/react-barbershop/static/media/contacts768.80030323c5c36a12ea32.webp",
+    "static/media/contacts480.webp": "/react-barbershop/static/media/contacts480.36861b524aa4e49368fe.webp",
     "static/media/gallery1-418.webp": "/react-barbershop/static/media/gallery1-418.69d99dfefa3b25798a06.webp",
     "static/media/gallery1-330.webp": "/react-barbershop/static/media/gallery1-330.ff43775848f2a7fd2c82.webp",
     "static/media/gallery1-270.webp": "/react-barbershop/static/media/gallery1-270.92259258d324d73d3b20.webp",
@@ -49,20 +54,22 @@
     "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.52d04435a1cf05881c097e310d14586e.svg",
     "index.html": "/react-barbershop/index.html",
     "main.5df69c98.css.map": "/react-barbershop/static/css/main.5df69c98.css.map",
-    "main.081cd5e8.js.map": "/react-barbershop/static/js/main.081cd5e8.js.map",
+    "main.61e068b8.js.map": "/react-barbershop/static/js/main.61e068b8.js.map",
     "142.3a37dad1.chunk.js.map": "/react-barbershop/static/js/142.3a37dad1.chunk.js.map",
     "768.d3315007.chunk.js.map": "/react-barbershop/static/js/768.d3315007.chunk.js.map",
-    "481.1facae1e.chunk.js.map": "/react-barbershop/static/js/481.1facae1e.chunk.js.map",
+    "946.4df2b12c.chunk.js.map": "/react-barbershop/static/js/946.4df2b12c.chunk.js.map",
     "628.64908735.chunk.js.map": "/react-barbershop/static/js/628.64908735.chunk.js.map",
-    "124.d5755966.chunk.js.map": "/react-barbershop/static/js/124.d5755966.chunk.js.map",
-    "849.d5b5430e.chunk.js.map": "/react-barbershop/static/js/849.d5b5430e.chunk.js.map",
+    "336.d4f20daf.chunk.js.map": "/react-barbershop/static/js/336.d4f20daf.chunk.js.map",
+    "904.ca94bb87.chunk.js.map": "/react-barbershop/static/js/904.ca94bb87.chunk.js.map",
     "561.0af5a7ce.chunk.js.map": "/react-barbershop/static/js/561.0af5a7ce.chunk.js.map",
     "830.4cd0ef79.chunk.js.map": "/react-barbershop/static/js/830.4cd0ef79.chunk.js.map",
     "411.e721921c.chunk.js.map": "/react-barbershop/static/js/411.e721921c.chunk.js.map",
-    "968.37d80517.chunk.js.map": "/react-barbershop/static/js/968.37d80517.chunk.js.map"
+    "380.2b2a61c6.chunk.js.map": "/react-barbershop/static/js/380.2b2a61c6.chunk.js.map",
+    "968.17370a21.chunk.js.map": "/react-barbershop/static/js/968.17370a21.chunk.js.map",
+    "661.93609e37.chunk.js.map": "/react-barbershop/static/js/661.93609e37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5df69c98.css",
-    "static/js/main.081cd5e8.js"
+    "static/js/main.61e068b8.js"
   ]
 }

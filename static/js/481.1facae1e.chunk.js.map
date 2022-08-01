@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/481.1facae1e.chunk.js","mappings":"kLAAe,SAASA,IACtB,OAAQ,iCACT,C","sources":["pages/Prices.jsx"],"sourcesContent":["export default function Prices() {\n  return (<p>Prices</p>);\n}\n"],"names":["Prices"],"sourceRoot":""}

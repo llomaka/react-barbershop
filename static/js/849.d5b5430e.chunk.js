@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_barbershop=self.webpackChunkreact_barbershop||[]).push([[849],{5849:function(e,r,n){n.r(r),n.d(r,{default:function(){return u}});var t=n(184);function u(){return(0,t.jsx)("p",{children:"Appointment"})}}}]);
-//# sourceMappingURL=849.d5b5430e.chunk.js.map
