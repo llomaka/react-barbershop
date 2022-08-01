@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/react-barbershop/static/css/main.5df69c98.css",
-    "main.js": "/react-barbershop/static/js/main.61e068b8.js",
+    "main.js": "/react-barbershop/static/js/main.0ec83750.js",
     "static/js/142.3a37dad1.chunk.js": "/react-barbershop/static/js/142.3a37dad1.chunk.js",
     "static/js/768.d3315007.chunk.js": "/react-barbershop/static/js/768.d3315007.chunk.js",
-    "static/js/946.4df2b12c.chunk.js": "/react-barbershop/static/js/946.4df2b12c.chunk.js",
+    "static/js/771.ae98aa4e.chunk.js": "/react-barbershop/static/js/771.ae98aa4e.chunk.js",
     "static/js/628.64908735.chunk.js": "/react-barbershop/static/js/628.64908735.chunk.js",
     "static/js/336.d4f20daf.chunk.js": "/react-barbershop/static/js/336.d4f20daf.chunk.js",
     "static/js/904.ca94bb87.chunk.js": "/react-barbershop/static/js/904.ca94bb87.chunk.js",
@@ -17,9 +17,11 @@
     "static/media/contacts1280.webp": "/react-barbershop/static/media/contacts1280.7652826a5da002941ffd.webp",
     "static/media/contacts768.webp": "/react-barbershop/static/media/contacts768.80030323c5c36a12ea32.webp",
     "static/media/contacts480.webp": "/react-barbershop/static/media/contacts480.36861b524aa4e49368fe.webp",
+    "static/media/price1280.webp": "/react-barbershop/static/media/price1280.0c59b36a26c2327e9d5b.webp",
     "static/media/gallery1-418.webp": "/react-barbershop/static/media/gallery1-418.69d99dfefa3b25798a06.webp",
     "static/media/gallery1-330.webp": "/react-barbershop/static/media/gallery1-330.ff43775848f2a7fd2c82.webp",
     "static/media/gallery1-270.webp": "/react-barbershop/static/media/gallery1-270.92259258d324d73d3b20.webp",
+    "static/media/price768.webp": "/react-barbershop/static/media/price768.2fc0fb0397a7210f2145.webp",
     "static/media/master1-450.webp": "/react-barbershop/static/media/master1-450.12c52003682eecbff7cf.webp",
     "static/media/gallery3-418.webp": "/react-barbershop/static/media/gallery3-418.0930c0208f105161432a.webp",
     "static/media/master1-418.webp": "/react-barbershop/static/media/master1-418.69dcdcdccfa54a3a52f9.webp",
@@ -28,6 +30,7 @@
     "static/media/gallery4-418.webp": "/react-barbershop/static/media/gallery4-418.73889274885b51a68217.webp",
     "static/media/gallery3-270.webp": "/react-barbershop/static/media/gallery3-270.48279a9a907070bd54c3.webp",
     "static/media/about1-270.webp": "/react-barbershop/static/media/about1-270.ea8ec3f8bdb2237416ba.webp",
+    "static/media/price480.webp": "/react-barbershop/static/media/price480.afb9125d21e210cd706a.webp",
     "static/media/master2-450.webp": "/react-barbershop/static/media/master2-450.5e3edf99e03968b34838.webp",
     "static/media/master2-418.webp": "/react-barbershop/static/media/master2-418.f98acd61ae15da2e8df2.webp",
     "static/media/gallery4-270.webp": "/react-barbershop/static/media/gallery4-270.aeb4b072bd0ae431f2ae.webp",
@@ -54,10 +57,10 @@
     "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.52d04435a1cf05881c097e310d14586e.svg",
     "index.html": "/react-barbershop/index.html",
     "main.5df69c98.css.map": "/react-barbershop/static/css/main.5df69c98.css.map",
-    "main.61e068b8.js.map": "/react-barbershop/static/js/main.61e068b8.js.map",
+    "main.0ec83750.js.map": "/react-barbershop/static/js/main.0ec83750.js.map",
     "142.3a37dad1.chunk.js.map": "/react-barbershop/static/js/142.3a37dad1.chunk.js.map",
     "768.d3315007.chunk.js.map": "/react-barbershop/static/js/768.d3315007.chunk.js.map",
-    "946.4df2b12c.chunk.js.map": "/react-barbershop/static/js/946.4df2b12c.chunk.js.map",
+    "771.ae98aa4e.chunk.js.map": "/react-barbershop/static/js/771.ae98aa4e.chunk.js.map",
     "628.64908735.chunk.js.map": "/react-barbershop/static/js/628.64908735.chunk.js.map",
     "336.d4f20daf.chunk.js.map": "/react-barbershop/static/js/336.d4f20daf.chunk.js.map",
     "904.ca94bb87.chunk.js.map": "/react-barbershop/static/js/904.ca94bb87.chunk.js.map",
@@ -70,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.5df69c98.css",
-    "static/js/main.61e068b8.js"
+    "static/js/main.0ec83750.js"
   ]
 }
