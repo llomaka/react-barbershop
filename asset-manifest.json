@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/react-barbershop/static/css/main.5df69c98.css",
-    "main.js": "/react-barbershop/static/js/main.0ec83750.js",
+    "main.js": "/react-barbershop/static/js/main.3c4d64a6.js",
     "static/js/142.3a37dad1.chunk.js": "/react-barbershop/static/js/142.3a37dad1.chunk.js",
     "static/js/768.d3315007.chunk.js": "/react-barbershop/static/js/768.d3315007.chunk.js",
-    "static/js/771.ae98aa4e.chunk.js": "/react-barbershop/static/js/771.ae98aa4e.chunk.js",
+    "static/js/771.095cd93c.chunk.js": "/react-barbershop/static/js/771.095cd93c.chunk.js",
     "static/js/628.64908735.chunk.js": "/react-barbershop/static/js/628.64908735.chunk.js",
     "static/js/336.d4f20daf.chunk.js": "/react-barbershop/static/js/336.d4f20daf.chunk.js",
     "static/js/904.ca94bb87.chunk.js": "/react-barbershop/static/js/904.ca94bb87.chunk.js",
@@ -57,10 +57,10 @@
     "static/media/BarbershopLogo.svg": "/react-barbershop/static/media/BarbershopLogo.52d04435a1cf05881c097e310d14586e.svg",
     "index.html": "/react-barbershop/index.html",
     "main.5df69c98.css.map": "/react-barbershop/static/css/main.5df69c98.css.map",
-    "main.0ec83750.js.map": "/react-barbershop/static/js/main.0ec83750.js.map",
+    "main.3c4d64a6.js.map": "/react-barbershop/static/js/main.3c4d64a6.js.map",
     "142.3a37dad1.chunk.js.map": "/react-barbershop/static/js/142.3a37dad1.chunk.js.map",
     "768.d3315007.chunk.js.map": "/react-barbershop/static/js/768.d3315007.chunk.js.map",
-    "771.ae98aa4e.chunk.js.map": "/react-barbershop/static/js/771.ae98aa4e.chunk.js.map",
+    "771.095cd93c.chunk.js.map": "/react-barbershop/static/js/771.095cd93c.chunk.js.map",
     "628.64908735.chunk.js.map": "/react-barbershop/static/js/628.64908735.chunk.js.map",
     "336.d4f20daf.chunk.js.map": "/react-barbershop/static/js/336.d4f20daf.chunk.js.map",
     "904.ca94bb87.chunk.js.map": "/react-barbershop/static/js/904.ca94bb87.chunk.js.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.5df69c98.css",
-    "static/js/main.0ec83750.js"
+    "static/js/main.3c4d64a6.js"
   ]
 }
