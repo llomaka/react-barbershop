@@ -17,22 +17,22 @@ export default function MastersListItem({ master }) {
       <CardActions>
         <List sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', mx: 'auto' }}>
           <ListItem key='instagram' sx={{padding: 0}}>
-            <Link href={instagram} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', '&:hover': { color: '#FF6C00' }}}>
+            <Link href={instagram} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#FF6C00' }}}>
               <InstagramIcon sx={{ color: 'currentColor' }} />
             </Link>
           </ListItem>
           <ListItem key='twitter' sx={{padding: 0}}>
-            <Link href={twitter} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', '&:hover': { color: '#FF6C00' }}}>
+            <Link href={twitter} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#FF6C00' }}}>
               <TwitterIcon sx={{ color: 'currentColor' }} />
             </Link>
           </ListItem>
           <ListItem key='facebook' sx={{padding: 0}}>
-            <Link href={facebook} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', '&:hover': { color: '#FF6C00' }}}>
+            <Link href={facebook} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#FF6C00' }}}>
               <FacebookIcon sx={{ color: 'currentColor' }} />
             </Link>
           </ListItem>
           <ListItem key='linkedin' sx={{padding: 0}}>
-            <Link href={linkedin} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', '&:hover': { color: '#FF6C00' }}}>
+            <Link href={linkedin} target='_blank' sx={{width: 44, height: 44, backgroundColor: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#303030', transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#FF6C00' }}}>
               <LinkedInIcon sx={{ color: 'currentColor' }} />
             </Link>
           </ListItem>

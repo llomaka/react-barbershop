@@ -6,7 +6,7 @@ export default function SocialLinks() {
       sx={{
         mt: 2,
         color: '#303030',
-        textAlign: {xs: 'center', md: 'initial'},
+        textAlign: { xs: 'center', md: 'initial' },
         display: { sm: 'flex' },
         flexDirection: { sm: 'column', md: 'row' },
         gap: { sm: '24px', md: '40px' },
@@ -33,7 +33,9 @@ export default function SocialLinks() {
               height: '1px',
               background: '#303030'
             }
-          }
+          },
+          transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)',
+          '&:hover': { color: '#FF6C00' }
         }}
       >
         Instagram
@@ -42,7 +44,7 @@ export default function SocialLinks() {
         href='https://www.youtube.com/channel/UCN7NQEBOUuIoXrJZzqVb58Q'
         target='_blank'
         rel='noreferrer noopener nofollow'
-        sx={{ color: 'inherit', display: 'block' }}
+        sx={{ color: 'inherit', display: 'block', transition: 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#FF6C00' } }}
       >
         Youtube
       </Link>
